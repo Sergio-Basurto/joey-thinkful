@@ -1,0 +1,45 @@
+/* General Styles */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #0b1c51; /* Dark blue background color */
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-size: 52px; /* 52 pixels font size for mobile */
+  color: #fff; /* White text color */
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav a {
+  font-family: "Montserrat", sans-serif; /* Montserrat font */
+  text-decoration: none;
+  color: #fff; /* White text color */
+  font-size: 18px; /* Font size for navigation links */
+}
+
+/* Media Query for Desktop */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 48px; /* 48 pixels font size for desktop */
+  }
+}
